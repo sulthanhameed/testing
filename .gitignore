@@ -1,0 +1,51 @@
+# ─── Dependencies ─────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ─── Build outputs ────────────────────────────────────
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# ─── Environment files (NEVER commit secrets!) ────────
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# ─── Editor / OS ──────────────────────────────────────
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+
+# ─── Logs ─────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ─── Coverage / Testing ──────────────────────────────
+coverage/
+*.lcov
+.nyc_output
+
+# ─── Vercel ──────────────────────────────────────────
+.vercel
+
+# ─── TypeScript ──────────────────────────────────────
+*.tsbuildinfo
+
+# ─── Misc ────────────────────────────────────────────
+*.pid
+*.seed
+*.pid.lock
+.npm
