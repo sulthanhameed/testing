@@ -1,11 +1,8 @@
 backend/
 database/
-docker-compose.yml
-VERCEL_DEPLOY.md
+.git/
+.github/
+*.md
 node_modules/
-dist/
 .env
 .env.local
-.git/
-*.log
-.DS_Store
